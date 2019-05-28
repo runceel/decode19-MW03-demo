@@ -14,6 +14,11 @@ namespace PrismApp.ViewModels
     {
         public IEmployeeUseCase EmployeeUseCase { get; }
 
+        // for designer
+        public MainPageViewModel() : base(null)
+        {
+        }
+
         public MainPageViewModel(INavigationService navigationService, IEmployeeUseCase employeeUseCase)
             : base(navigationService)
         {
@@ -33,7 +38,10 @@ namespace PrismApp.ViewModels
 
         private async void ExecuteNavigateToNextCommand()
         {
-            await NavigationService.NavigateAsync("NextPage");
+            await NavigationService.NavigateAsync("NextPage", new NavigationParameters
+            {
+                { "id", EmployeeUseCase.Employee.Id },
+            });
         }
 
         private bool CanExecuteNavigateToNextCommand() => EmployeeUseCase.Employee != null;

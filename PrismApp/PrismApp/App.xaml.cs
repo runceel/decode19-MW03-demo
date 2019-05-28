@@ -33,6 +33,7 @@ namespace PrismApp
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
 
             containerRegistry.RegisterSingleton<IEmployeeUseCase, EmployeeUseCase>();
+            containerRegistry.RegisterForNavigation<NextPage, NextPageViewModel>();
         }
     }
 }
