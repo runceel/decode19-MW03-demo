@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp", "PrismApp\PrismApp\PrismApp.csproj", "{18962E3C-418B-4285-A2D1-964050534FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismApp", "PrismApp\PrismApp\PrismApp.csproj", "{18962E3C-418B-4285-A2D1-964050534FF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Android", "PrismApp\PrismApp.Android\PrismApp.Android.csproj", "{1849045E-81CE-43CB-B71C-0E226EC1F5C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.iOS", "PrismApp\PrismApp.iOS\PrismApp.iOS.csproj", "{ECE9A79A-4739-421E-959A-3AB2DE2B5DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismApp.Tests", "PrismApp.Tests\PrismApp.Tests.csproj", "{06355699-DD55-431D-BA4A-284E8BCD5117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,30 @@ Global
 		{ECE9A79A-4739-421E-959A-3AB2DE2B5DC9}.Release|iPhone.Build.0 = Release|iPhone
 		{ECE9A79A-4739-421E-959A-3AB2DE2B5DC9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{ECE9A79A-4739-421E-959A-3AB2DE2B5DC9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|iPhone.Build.0 = Release|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{06355699-DD55-431D-BA4A-284E8BCD5117}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
