@@ -1,5 +1,6 @@
 ﻿using Prism;
 using Prism.Ioc;
+using PrismApp.UseCases;
 using PrismApp.ViewModels;
 using PrismApp.Views;
 using Xamarin.Forms;
@@ -30,6 +31,8 @@ namespace PrismApp
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
+
+            containerRegistry.RegisterSingleton<IEmployeeUseCase, EmployeeUseCase>();
         }
     }
 }
